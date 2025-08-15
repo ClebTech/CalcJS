@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <title>JS Calc</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1 id="titulo">JavaScript Calculator</h1>
+
+    <section class="calc">
+        <div class="result-screen">0</div>
+        <div id="btn-layout">
+            <button class="btn emphasis">C</button>
+            <button class="btn operation">(</button>
+            <button class="btn operation">)</button>
+            <button class="btn operation">%</button>
+            <button class="btn emphasis delete">⌫</button>
+            <!-- <br> -->
+            <button class="btn operation">!</button>
+            <button class="btn num">9</button>
+            <button class="btn num">8</button>
+            <button class="btn num">7</button>
+            <button class="btn operation">/</button>
+            <!-- <br> -->
+            <button class="btn operation">x<sup>y</sup></button>
+            <button class="btn num">6</button>
+            <button class="btn num">5</button>
+            <button class="btn num">4</button>
+            <button class="btn operation">*</button>
+            <!-- <br> -->
+            <button class="btn operation">√</button>
+            <button class="btn num">3</button>
+            <button class="btn num">2</button>
+            <button class="btn num">1</button>
+            <button class="btn operation">-</button>
+            <!-- <br> -->
+            <button class="btn operation">.</button>
+            <button class="btn num zero">0</button>
+            <button class="btn emphasis">=</button>
+            <button class="btn operation">+</button>
+        </div>
+        
+    </section>
+
+    <button class="toggle-bg-style">Dark Mode</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.min.js"></script> <!-- lib for math calcs -->
+    <script src="assets/main.js"></script>
+</body>
+</html>
