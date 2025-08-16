@@ -31,5 +31,5 @@
 
 Link to the calculator: https://clebtech.github.io/CalcJS/
 
-https://github.com/user-attachments/assets/eb400f90-302a-454d-8ff5-0da22510e453
+<img width="629" height="766" alt="Image" src="https://github.com/user-attachments/assets/9956d75f-e90b-4c36-95dc-654c9ed7c39e" />
 
